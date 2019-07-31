@@ -30,24 +30,32 @@ typedef queue<ll> ql;
 typedef queue<int> qi;
 
 template <class T>
-void printv(vector<T> vc) {
-    for (auto e: vc) cout << e << " ";
+void printv(vector<T> vc)
+{
+    for (auto e : vc)
+        cout << e << " ";
     cout << endl;
 }
 
 template <class T>
-void printvv(vector<T> vvc) { 
-    for (auto vc: vvc) {
-        for (auto e: vc) cout << e << " ";
+void printvv(vector<T> vvc)
+{
+    for (auto vc : vvc)
+    {
+        for (auto e : vc)
+            cout << e << " ";
         cout << endl;
     }
 }
 
 template <class T>
-void printvp(vector<pair<T, T> > vp) {
-    for (auto pT: vp) cout << pT.first << " " << pT.second << endl;
+void printvp(vector<pair<T, T>> vp)
+{
+    for (auto pT : vp)
+        cout << pT.first << " " << pT.second << endl;
 }
 
-int main() {
+int main()
+{
     return 0;
 }
