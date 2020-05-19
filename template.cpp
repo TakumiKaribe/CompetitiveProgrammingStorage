@@ -22,12 +22,16 @@ typedef vector<ll> vl;
 typedef vector<int> vi;
 typedef vector<vl> vvl;
 typedef vector<vi> vvi;
+typedef vector<char> vc;
+typedef vector<string> vs;
 
 typedef pair<ll, ll> pll;
 typedef pair<int, int> pi;
 
 typedef vector<pll> vpl;
 typedef vector<pi> vpi;
+typedef vector<vc> vvc;
+typedef vector<vs> vvs;
 
 typedef queue<ll> ql;
 typedef queue<int> qi;
