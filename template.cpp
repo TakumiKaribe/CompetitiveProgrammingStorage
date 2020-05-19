@@ -33,6 +33,8 @@ typedef vector<vs> vvs;
 
 typedef queue<ll> ql;
 typedef queue<int> qi;
+typedef queue<pll> qpl;
+typedef queue<pi> qpi;
 
 template <typename T>
 void printv(vector<T> v)
