@@ -34,7 +34,7 @@ typedef vector<vs> vvs;
 typedef queue<ll> ql;
 typedef queue<int> qi;
 
-template <class T>
+template <typename T>
 void printv(vector<T> v)
 {
     for (auto e : v)
@@ -42,7 +42,7 @@ void printv(vector<T> v)
     cout << endl;
 }
 
-template <class T>
+template <typename T>
 void printvv(vector<T> vv)
 {
     for (auto v : vv)
@@ -53,7 +53,13 @@ void printvv(vector<T> vv)
     }
 }
 
-template <class T>
+template <typename T, typename U>
+void printp(pair<T, U> p)
+{
+    cout << p.first << " " << p.second << endl;
+}
+
+template <typename T>
 void printvp(vector<pair<T, T>> vp)
 {
     for (auto p : vp)
