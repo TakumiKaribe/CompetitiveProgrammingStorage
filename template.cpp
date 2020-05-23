@@ -31,6 +31,9 @@ typedef vector<pll> vpl;
 typedef vector<pi> vpi;
 typedef vector<vs> vvs;
 
+typedef vector<pll> vvpl;
+typedef vector<vpi> vvpi;
+
 typedef queue<ll> ql;
 typedef queue<int> qi;
 typedef queue<pll> qpl;
