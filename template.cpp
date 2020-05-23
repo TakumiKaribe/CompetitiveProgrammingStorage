@@ -40,35 +40,32 @@ typedef queue<pll> qpl;
 typedef queue<pi> qpi;
 
 template <typename T>
-void printv(vector<T> v)
-{
-    for (auto e : v)
-        cout << e << " ";
+void printv(const vector<T>& v) {
+    for (const auto& e : v) cout << e << " ";
     cout << endl;
 }
 
 template <typename T>
-void printvv(vector<T> vv)
-{
-    for (auto v : vv)
-    {
-        for (auto e : v)
-            cout << e << " ";
+void printvv(const vector<T>& vv) {
+    for (const auto& v : vv) {
+        for (const auto& e : v) cout << e << " ";
         cout << endl;
     }
 }
 
 template <typename T, typename U>
-void printp(pair<T, U> p)
-{
+void printp(const pair<T, U>& p) {
     cout << p.first << " " << p.second << endl;
 }
 
 template <typename T>
-void printvp(vector<pair<T, T>> vp)
-{
-    for (auto p : vp)
-        cout << p.first << " " << p.second << endl;
+void printvp(const vector<pair<T, T>>& vp) {
+    for (const auto& p : vp) cout << p.first << " " << p.second << endl;
+}
+
+template <typename T>
+void printvvp(const vector<vector<pair<T, T>>>& vvp) {
+    for (const auto& vp : vvp) for (const auto& p : vp) cout << p.first << " " << p.second << endl;
 }
 
 int main()
